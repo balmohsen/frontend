@@ -1,0 +1,81 @@
+/* Header.module.css */
+
+.header {
+    background-color: #6666cc; /* Adjust to your preferred color */
+    padding: 10px 20px;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.li {
+    margin-right: 20px;
+    position: relative;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.link:hover {
+    color: #ddd;
+}
+
+.activeLink {
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+}
+
+.logoutButton {
+    background-color: #dc3545; /* Red color for logout */
+    color: #Ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.logoutButton:hover {
+    background-color: #c82333;
+}
+
+.notificationLink {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.notificationIcon {
+    position: relative;
+}
